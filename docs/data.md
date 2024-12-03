@@ -41,18 +41,18 @@ The dataset is sourced from the UCI Machine Learning Repository and is titled "R
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="./docs/plots/box_plots_univariate.png" alt="Image 1" style="width: 100%; border: 1px solid #ddd; border-radius: 5px;">
+      <img src="./plots/box_plots_univariate.png" alt="Image 1" style="width: 100%; border: 1px solid #ddd; border-radius: 5px;">
     </td>
     <td style="text-align: center;">
-      <img src="./docs/plots/distribution_room_occupancy_count.png" alt="Image 2" style="width: 100%; border: 1px solid #ddd; border-radius: 5px;">
+      <img src="./plots/distribution_room_occupancy_count.png" alt="Image 2" style="width: 100%; border: 1px solid #ddd; border-radius: 5px;">
     </td>
   </tr>
   <tr>
     <td style="text-align: center;">
-      <img src="./docs/plots/bivariate_analysis_barplots.png" alt="Image 3" style="width: 100%; border: 1px solid #ddd; border-radius: 5px;">
+      <img src="./plots/bivariate_analysis_barplots.png" alt="Image 3" style="width: 100%; border: 1px solid #ddd; border-radius: 5px;">
     </td>
     <td style="text-align: center;">
-      <img src="./docs/plots/temp_over_time.png" alt="Image 4" style="width: 100%; border: 1px solid #ddd; border-radius: 5px;">
+      <img src="./plots/temp_over_time.png" alt="Image 4" style="width: 100%; border: 1px solid #ddd; border-radius: 5px;">
     </td>
   </tr>
 </table>
