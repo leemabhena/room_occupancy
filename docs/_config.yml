@@ -23,6 +23,7 @@ plugins:
 # Navigation Menu
 header_pages:
   - data.md
+  - methodology.md
 
 # Build settings
 markdown: kramdown
