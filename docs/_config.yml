@@ -24,6 +24,7 @@ plugins:
 header_pages:
   - data.md
   - methodology.md
+  - results.md
 
 # Build settings
 markdown: kramdown
