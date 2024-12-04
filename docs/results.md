@@ -11,7 +11,7 @@ title: "Results"
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="./plots/pca_scree_plot.png" alt="Image 1" style="width: 100%; border: 1px solid #ddd; border-radius: 5px;">
+      <img src="./plots/pca_scree_plot.png" alt="Image 1" style="width: 50%; border: 1px solid #ddd; border-radius: 5px;">
     </td>
   </tr>
 </table>
