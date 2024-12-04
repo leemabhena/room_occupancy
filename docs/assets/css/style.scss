@@ -1,0 +1,29 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom styles for the navigation menu */
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Display list items in a row */
+}
+
+.nav-menu li {
+  margin-right: 20px; /* Spacing between menu items */
+}
+
+.nav-menu li:last-child {
+  margin-right: 0; /* Remove right margin from the last item */
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: inherit; /* Use the existing text color */
+}
+
+.nav-menu a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
