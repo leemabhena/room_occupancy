@@ -1,0 +1,67 @@
+# _config.yml
+
+title: "Multivariate Analysis of Sensor Data for Study Room Occupancy Estimation"
+description: "A project analyzing sensor data to estimate study room occupancy using multivariate statistical methods."
+author:
+  name: "Lee Mabhena"
+  email: "lnm1@williams.edu"
+
+# Use the minimal-mistakes theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0" # Specify the version for consistency
+
+# Plugins (GitHub Pages supports these plugins)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
+
+# Navigation Menu
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Data Description"
+    url: "/data/"
+  # - title: "Methodology"
+  #   url: "/methodology/"
+  # - title: "Results"
+  #   url: "/results/"
+  # - title: "Conclusions"
+  #   url: "/conclusions/"
+  # - title: "Code"
+  #   url: "/code/"
+  # - title: "Bibliography"
+  #   url: "/bibliography/"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Default configuration
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+
+# Exclude folders from the build
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "node_modules"
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
+
+# Enable breadcrumbs (optional)
+breadcrumbs:
+  enabled: true
