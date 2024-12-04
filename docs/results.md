@@ -14,11 +14,21 @@ In the scree plot above, an elbow is observed between the third and fourth princ
 
 ### Interpretation of Principal Components
 
-![Principal Component Loadings (PC1 & PC2)](./plots/pc1_pc2_loadings.png)
-
-![Principal Component Loadings (PC3 & PC4)](./plots/pc3_pc4_loadings.png)
-
-![Principal Component Loadings (PC5      )](./plots/pc5_loadings.png)
+<table>
+  <tr>
+    <td style="text-align: center;">
+      <img src="./plots/pc1_pc2_loadings.png" alt="Image 1" style="width: 100%; border: 1px solid #ddd; border-radius: 5px;">
+    </td>
+    <td style="text-align: center;">
+      <img src="./plots/pc3_pc4_loadings.png" alt="Image 2" style="width: 100%; border: 1px solid #ddd; border-radius: 5px;">
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <img src="./plots/pc5_loadings.png" alt="Image 1" style="width: 100%; border: 1px solid #ddd; border-radius: 5px;">
+    </td>
+  </tr>
+</table>
 
 #### **PC1: Combined Environmental Activity**
 
