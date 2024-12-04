@@ -36,4 +36,4 @@ title: "Reference & Code"
 
 ## R code
 
-- [R code used in this project](../code/room_occupancy.R)
+- [R code used in this project](https://github.com/leemabhena/room_occupancy/blob/main/code/room_occupancy.R)
