@@ -8,13 +8,7 @@ title: "Results"
 
 ### Scree Plot
 
-<table>
-  <tr>
-    <td style="text-align: center;">
-      <img src="./plots/pca_scree_plot.png" alt="Image 1" style="width: 50%;">
-    </td>
-  </tr>
-</table>
+<img src="./plots/pca_scree_plot.png" alt="Image 1" style="width: 50%;">
 
 In the scree plot above, an elbow is observed between the third and fourth principal components (PCs). Despite the elbow suggesting three components, five principal components were retained for the analysis to capture a substantial portion of the total variance in the data. Retaining more PCs ensures that essential information is not lost, which could be critical for accurately estimating room occupancy.
 
