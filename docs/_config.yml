@@ -26,6 +26,7 @@ header_pages:
   - methodology.md
   - results.md
   - conclusion.md
+  - reference.md
 
 # Build settings
 markdown: kramdown
