@@ -5,20 +5,25 @@
 
 /* Custom styles for the navigation menu */
 .nav-menu {
-  list-style: none;
+  list-style: none; /* Remove default list styles */
   margin: 0;
   padding: 0;
   display: flex; /* Display list items in a row */
+  align-items: center;
 }
 
 .nav-menu li {
+  list-style: none; /* Ensure no list-style is applied */
   margin-right: 20px; /* Spacing between menu items */
 }
 
-.nav-menu li:last-child {
-  margin-right: 0; /* Remove right margin from the last item */
+/* Remove markers from the navigation menu items */
+.nav-menu li::marker {
+  content: ''; /* Remove the marker content */
+  display: none; /* Hide the marker */
 }
 
+/* Style the navigation links */
 .nav-menu a {
   text-decoration: none;
   color: inherit; /* Use the existing text color */
@@ -26,4 +31,11 @@
 
 .nav-menu a:hover {
   text-decoration: underline; /* Underline on hover */
+}
+
+/* Optional: Adjust the header and navigation alignment */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
