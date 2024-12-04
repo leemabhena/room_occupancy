@@ -8,7 +8,7 @@ title: "Results"
 
 ### Scree Plot
 
-![Scree Plot](./plots/pca_scree_plot.png.png)
+![Scree Plot](./plots/pca_scree_plot.png)
 
 In the scree plot above, an elbow is observed between the third and fourth principal components (PCs). Despite the elbow suggesting three components, five principal components were retained for the analysis to capture a substantial portion of the total variance in the data. Retaining more PCs ensures that essential information is not lost, which could be critical for accurately estimating room occupancy.
 
@@ -52,7 +52,7 @@ In the scree plot above, an elbow is observed between the third and fourth princ
 
 ### Grouped Means of Principal Components by Occupancy Count
 
-table>
+<table>
   <tr>
     <td style="text-align: center;">
       <img src="./plots/grouped_mean_sensors_PCs.png" alt="Image 1" style="width: 100%; border: 1px solid #ddd; border-radius: 5px;">
@@ -147,10 +147,10 @@ To address class imbalance, the data for the majority class (occupancy level 0) 
 
 ### Grouped Means of Sensors by Occupancy Count
 
-table>
+<table>
   <tr>
     <td style="text-align: center;">
-      <img src="./plots/bar_plot_grouped_means.png alt="Image 1" style="width: 100%; border: 1px solid #ddd; border-radius: 5px;">
+      <img src="./plots/bar_plot_grouped_means.png" alt="Image 1" style="width: 100%; border: 1px solid #ddd; border-radius: 5px;">
     </td>
     <td style="text-align: center;">
       <img src="./plots/grouped_means_line_chart.png" alt="Image 2" style="width: 100%; border: 1px solid #ddd; border-radius: 5px;">
