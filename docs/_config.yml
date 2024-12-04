@@ -7,9 +7,9 @@ author: "Lee Mabhena"
 
 # Use the minimal-mistakes theme
 # remote_theme: "mmistakes/minimal-mistakes@4.24.0" # Specify the version for consistency
-theme: minima
+# theme: minima
 
-# remote_theme: pages-themes/hacker@v0.2.0
+remote_theme: pages-themes/hacker@v0.2.0
 
 # Plugins (GitHub Pages supports these plugins)
 plugins:
@@ -21,12 +21,12 @@ plugins:
   - jekyll-include-cache
 
 # Navigation Menu
-header_pages:
-  - data.md
-  - methodology.md
-  - results.md
-  - conclusion.md
-  - reference.md
+# header_pages:
+#   - data.md
+#   - methodology.md
+#   - results.md
+#   - conclusion.md
+#   - reference.md
 
 # Build settings
 markdown: kramdown
