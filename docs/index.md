@@ -1,4 +1,7 @@
-# STAT 355 - Multivariate Statistics
+---
+title: "STAT 355 - Multivariate Statistics"
+layout: single
+---
 
 ## Multivariate Analysis of Sensor Data for Study Room Occupancy Estimation
 
