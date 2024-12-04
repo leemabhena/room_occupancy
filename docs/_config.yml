@@ -7,7 +7,8 @@ author:
   email: "lnm1@williams.edu"
 
 # Use the minimal-mistakes theme
-remote_theme: "mmistakes/minimal-mistakes@4.24.0" # Specify the version for consistency
+#remote_theme: "mmistakes/minimal-mistakes@4.24.0" # Specify the version for consistency
+theme: minima
 
 # Plugins (GitHub Pages supports these plugins)
 plugins:
@@ -18,11 +19,13 @@ plugins:
   - jekyll-include-cache
 
 # Navigation Menu
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "Data Description"
-    url: "/data/"
+header_pages:
+  - data.md
+# navigation:
+#   - title: "Home"
+#     url: "/"
+#   - title: "Data Description"
+#     url: "/data/"
   # - title: "Methodology"
   #   url: "/methodology/"
   # - title: "Results"
@@ -39,17 +42,17 @@ markdown: kramdown
 highlighter: rouge
 
 # Default configuration
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "single"
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "single"
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       layout: "single"
+#   - scope:
+#       path: ""
+#       type: "pages"
+#     values:
+#       layout: "single"
 
 # Exclude folders from the build
 exclude:
