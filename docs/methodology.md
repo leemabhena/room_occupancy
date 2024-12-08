@@ -4,13 +4,12 @@ title: "Methodology"
 
 ## Introduction
 
-The primary objective of this project is to analyze multivariate sensor data to estimate room occupancy counts. Given the high dimensionality of the dataset—with 19 sensor variables potentially correlated with each other—it is essential to employ statistical methods that can reduce dimensionality and address multicollinearity. Two main multivariate statistical approaches were used:
+The primary objective of this project is to analyze multivariate sensor data in relation to room occupancy counts. Given the high dimensionality of the dataset—with 19 sensor variables potentially correlated with each other—it is essential to employ statistical methods that can reduce dimensionality and address multicollinearity. Two main multivariate statistical approaches were used:
 
 1. **Principal Component Analysis (PCA)** followed by **Multivariate Analysis of Variance (MANOVA)** using the selected principal components.
 2. **Aggregation of Sensor Data by Type** (averaging sensors of the same type) followed by **MANOVA** on the aggregated variables.
 
 These methods were chosen to simplify the dataset while preserving the underlying structure necessary for accurate occupancy estimation.
-
 
 ## Approach 1: Principal Component Analysis (PCA) and MANOVA
 
@@ -29,13 +28,12 @@ These methods were chosen to simplify the dataset while preserving the underlyin
 ### Multivariate Analysis of Variance (MANOVA)
 #### Rationale
 - **Testing for Group Differences**: MANOVA assesses statistical differences in the mean vectors of multiple dependent variables (PCs) across levels of an independent variable (`Room_Occupancy_Count`).
-- **Handling Non-Normal Data**: The `MANOVA.RM` package was used as it relaxes the assumption of multivariate normality, making it suitable for real-world data.
+- **Handling Non-Normal Data**: The `MANOVA.RM` package was used as it relaxes the assumption of multivariate normality, making it suitable for real-world data and as the sample size is big enough we can assume using the Central Limit Theorem that the data is normal.
 
 #### Application
 1. **Setting Up the MANOVA**: The selected PCs were used as dependent variables, with `Room_Occupancy_Count` as the independent variable.
 2. **Executing MANOVA**: The null hypothesis tested whether there are no differences in the mean vectors of the PCs across occupancy levels.
 3. **Post-Hoc Analysis**: Significant effects were followed by post-hoc pairwise comparisons to identify specific differences between occupancy levels.
-
 
 ## Approach 2: Aggregation of Sensor Data by Type and MANOVA
 
@@ -48,7 +46,6 @@ These methods were chosen to simplify the dataset while preserving the underlyin
 1. **Averaging Sensor Readings**: Sensor data were aggregated by calculating the mean for sensors within the same category (e.g., Temperature, Light, Sound). CO₂ sensor data were included directly, as there was only one CO₂ sensor.
 2. **Addressing Class Imbalance**: Undersampling of the majority class (zero occupancy) ensured balanced representation across occupancy levels.
 
-
 ### Multivariate Analysis of Variance (MANOVA)
 #### Rationale
 - **Testing Aggregated Effects**: Using aggregated sensor variables as dependent variables in MANOVA assesses the collective impact of each sensor type on occupancy levels.
@@ -59,7 +56,6 @@ These methods were chosen to simplify the dataset while preserving the underlyin
 2. **Executing MANOVA**: Similar to the first approach, differences in mean vectors across occupancy levels were tested.
 3. **Post-Hoc Analysis**: Significant results were followed by post-hoc tests to explore specific differences between groups.
    
-
 ## Comparison and Justification of Methods
 
 1. **Choice of PCA and MANOVA**:
@@ -69,6 +65,4 @@ These methods were chosen to simplify the dataset while preserving the underlyin
 2. **Aggregation Approach**:
    - The second approach simplifies the dataset further and focuses on broader categories of sensor data. This enhances interpretability and facilitates practical applications where understanding the impact of each sensor type is beneficial.
 
-3. **Use of Non-Parametric MANOVA**:
-   - The `MANOVA.RM` package was employed as it relaxes the assumption of multivariate normality, making it more robust for data that may not meet traditional MANOVA assumptions.
 
