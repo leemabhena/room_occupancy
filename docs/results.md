@@ -8,9 +8,9 @@ title: "Results"
 
 ### Scree Plot
 
-<img src="./plots/pca_scree_plot.png" alt="Image 1" style="width: 50%;">
+<img src="./plots/pca_scree_plot.png" alt="Image 1" style="width: 40%;">
 
-In the scree plot above, an elbow is observed between the third and fourth principal components (PCs). Despite the elbow suggesting three components, five principal components were retained for the analysis to capture a substantial portion of the total variance in the data. Retaining more PCs ensures that essential information is not lost, which could be critical for accurately estimating room occupancy.
+In the scree plot above, an elbow is observed between the third and fourth principal components (PCs). Despite the elbow suggesting three components, five principal components were retained for the analysis to capture a substantial portion of the total variance in the data (~86%). Retaining more PCs ensures that essential information is not lost, which could be critical for accurately estimating room occupancy.
 
 ### Interpretation of Principal Components
 
@@ -116,7 +116,7 @@ The plots display 99% confidence intervals for the differences in mean values of
 
 #### **PC3: Acoustic vs. Light Dynamics**
 
-- **Significant Differences:** Notable between unoccupied (0) and low occupancy (1, 2).
+- **Significant Differences:** Notable differences between unoccupied (0) and occupied (1, 2, 3).
 - **Observations:** Confidence intervals for comparisons involving occupancy level 0 are negative, while those among occupied levels are positive.
 - **Interpretation:** PC3 highlights contrasts in sound and light that are more evident when moving from no occupancy to some occupancy.
 
@@ -206,13 +206,13 @@ Each plot shows the 99% confidence intervals for differences in mean sensor valu
 
 #### **2. Light Sensor**
 
-- **Significant Differences:** All comparisons show significant differences without confidence intervals crossing zero.
+- **Significant Differences:** All comparisons show significant differences without confidence intervals including zero.
 - **Interpretation:** Light intensity is highly sensitive to occupancy changes, reflecting increased lighting usage when rooms are occupied.
 
 #### **3. Sound Sensor**
 
 - **Significant Differences:** Notable between unoccupied (0) and occupied levels.
-- **Less Sensitivity:** Between higher occupancy levels (2 vs. 3), confidence intervals approach zero.
+- **Less Sensitivity:** Between higher occupancy levels (2 vs. 3), confidence intervals contain zero.
 - **Interpretation:** Sound levels distinguish unoccupied from occupied rooms but are less effective for quantifying occupants beyond the initial occupancy.
 
 #### **4. CO₂ Sensor**
