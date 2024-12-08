@@ -6,7 +6,7 @@ title: "STAT 355 - Multivariate Statistics"
 
 ## Introduction
 
-Finding an available study room on campus is often a challenging and time-consuming task for students. The current approach requires physically checking multiple rooms to determine their occupancy status, which can be inefficient, especially when specific amenities are needed. Building upon my previous work in a distributed systems class—where we developed a system to detect study room occupancy to enhance student life—this project delves into the statistical aspects of occupancy estimation.
+Finding an available study room on campus is often a challenging and time-consuming task for students. The current approach requires physically checking multiple rooms to determine their occupancy status, which can be inefficient, especially when specific amenities are needed. Building upon my previous work in a [distributed systems](https://www.youtube.com/watch?v=ddzFHo8DDM0) class—where we developed a system to detect study room occupancy to enhance student life—this project delves into the statistical aspects of occupancy estimation.
 
 By analyzing multivariate sensor data, I aim to understand the complex relationships among various environmental factors such as temperature, light intensity, sound levels, and CO₂ concentration. This project not only contributes to the development of an effective occupancy detection system but also provides insights into how different environmental variables interact in occupied versus unoccupied spaces.
 
@@ -21,7 +21,7 @@ The primary objective of this project is to employ multivariate statistical meth
 
 ## Research Question
 
-How can multivariate statistical analysis of environmental sensor data be used to accurately estimate study room occupancy levels, and which environmental factors are most significant in predicting occupancy?
+Which sensors or combinations of sensors gives us significant information or differences on room occupation counts?
 
 ---
 
