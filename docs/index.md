@@ -12,7 +12,7 @@ By analyzing multivariate sensor data, I aim to understand the complex relations
 
 ## Objective
 
-The primary objective of this project is to employ multivariate statistical methods to analyze sensor data for estimating study room occupancy levels. Specifically, we aim to:
+The primary objective of this project is to employ multivariate statistical methods to analyze sensor data for estimating study room occupancy levels. Specifically, I aim to:
 
 - Explore and understand the multivariate relationships among different sensor readings.
 - Reduce the dimensionality of the dataset using techniques like Principal Component Analysis (PCA) to identify the most significant factors influencing occupancy.
