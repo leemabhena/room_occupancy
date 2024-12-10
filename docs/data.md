@@ -110,7 +110,7 @@ The following preprocessing steps were performed:
    - A check for missing values was performed across all columns, and no missing values were found in the dataset.
 
 4. **Data Inspection**:
-   - The structure of the dataset was inspected using to confirm data types and ensure correct formatting of each variable.
+   - The structure of the dataset was inspected to confirm data types and ensure correct formatting of each variable.
 
 5. **Data Dimensions**:
    - The dataset contains 10,129 rows and 19 columns.
